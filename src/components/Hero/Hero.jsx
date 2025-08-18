@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import { Button } from "..";
 import Img from "@/assets/heroImage.png";
+import Img2 from "@/assets/heroImage2.png";
+import Img3 from "@/assets/home_img1.jpg";
+import Img4 from "@/assets/home_img2.jpg";
 
 const Hero = () => {
   return (
-    <section className="h-[calc(100vh-64px)] py-10 sm:mt-0 flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10 lg:gap-20">
+    <section className="h-[calc(100vh-64px)] py-10 sm:mt-0 flex flex-col md:flex-row md:justify-between items-center md:gap-10 lg:gap-20 overflow-hidden">
       {/* Hero Content */}
-      <div className="lg:w-1/2">
+      <div className="md:w-1/2">
         <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
           Smart customer communication, <br /> powered by Mark One
         </h1>
@@ -28,12 +31,13 @@ const Hero = () => {
       </div>
 
       {/* Placeholder for Illustration */}
-      <div className="lg:w-1/2 border-8 rounded-2xl bg-gray-100 border-gray-100 lg:border-none">
+      <div className="md:w-1/2 flex flex-col justify-center items-center mt-10 md:mt-0 translate-x-18 md:translate-x-0 scale-75 sm:scale-100">
         <img
-          src={Img}
+          src={Img3}
           alt="Hero Image"
-          className="rounded-xl border-2 border-blue-50"
+          className="-translate-x-50 translate-y-8 z-10"
         />
+        <img src={Img4} alt="Hero Image" className="-translate-y-8" />
       </div>
     </section>
   );
