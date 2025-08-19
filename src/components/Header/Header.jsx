@@ -66,7 +66,7 @@ const Header = () => {
                       {/* If items exist, render a dropdown menu */}
                       <NavigationMenuList className="flex-col">
                         {items.map((item) => (
-                          <NavigationMenuItem key={id}>
+                          <NavigationMenuItem key={item.id}>
                             <NavigationMenuLink asChild className="w-40 py-3">
                               <Link to={item.to}>{item.label}</Link>
                             </NavigationMenuLink>

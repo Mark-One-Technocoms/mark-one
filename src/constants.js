@@ -1,4 +1,12 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Wallet,
+  Database,
+  Cloud,
+} from "lucide-react";
 
 export const navItems = [
   { id: 1, label: "Home", to: "/" },
@@ -85,3 +93,162 @@ export const socialMediaLinks = [
   { id: 3, label: "linkedin", to: "#", icon: Linkedin },
   { id: 4, label: "twitter", to: "#", icon: Twitter },
 ];
+
+export const hero = {
+  title: "Mark One – Capital. Cloud. Confidence.",
+  subline:
+    "We are investors, mentors, and builders of the next-generation AI, SaaS, and data ecosystems.",
+  tagline: "Build with our money. Scale with our people. Deploy on our cloud.",
+  ctas: [
+    {
+      id: 1,
+      label: "Submit Your Pitch",
+      href: "/contact",
+      type: "primary",
+    },
+    {
+      id: 2,
+      label: "Order a Dataset",
+      href: "/contact",
+      type: "secondary",
+    },
+    {
+      id: 3,
+      label: "Host on Our Cloud",
+      href: "/contact",
+      type: "secondary",
+    },
+  ],
+};
+
+export const pillars = [
+  {
+    id: "investment",
+    title: "Investment & Mentorship",
+    desc: "We back bold founders building cloud SaaS, AI agents, and outsourcing innovations.",
+    Icon: Wallet,
+    cta: {
+      label: "Submit Your Pitch",
+      href: "/contact?type=pitch",
+      type: "primary",
+    },
+  },
+  {
+    id: "data-services",
+    title: "Data Services",
+    desc: "Any dataset. Any scale. Anywhere.",
+    Icon: Database,
+    cta: {
+      label: "Order a Dataset",
+      href: "/contact?type=dataset",
+      type: "secondary",
+    },
+  },
+  {
+    id: "cloud",
+    title: "Cloud & Hosting (Iron Data Vaults)",
+    desc: "Don’t just rent the cloud. Own it.",
+    Icon: Cloud,
+    cta: {
+      label: "Host Your Startup in Our Vaults",
+      href: "/contact?type=cloud",
+      type: "secondary",
+    },
+  },
+];
+
+export const ironVaults = {
+  title: "Iron Data Vaults – Redefining how the world stores and owns data.",
+  sub: "The cloud is no longer a service. It’s an asset you can own.",
+  bullets: [
+    "Sovereign AI data centres in Delhi & Dehradun",
+    "Fractional cloud ownership (tokenized infrastructure)",
+    "AI-optimized for training, inference, and high-performance workloads",
+  ],
+  cta: {
+    label: "Invest in the Future of Cloud",
+    href: "/contact",
+    type: "secondary",
+  },
+};
+
+export const outsourcing = {
+  title: "Manpower & Tech Outsourcing",
+  copy: "On-demand teams, global outsourcing, AI testing, multilingual customer support. Flexible models from remote pods to fully managed services.",
+  cta: {
+    label: "Request Manpower",
+    href: "/contact?type=manpower",
+    type: "primary",
+  },
+};
+
+export const techServices = {
+  items: [
+    {
+      title: "SaaS Development",
+      desc: "Build fast, scale globally.",
+      icon: "Code",
+    },
+    {
+      title: "Cloud & DevOps Support",
+      desc: "Monitoring, pipelines, automation.",
+      icon: "Cloud",
+    },
+    {
+      title: "AI Agent Integration",
+      desc: "Embed intelligent agents into workflows.",
+      icon: "Workflow",
+    },
+    {
+      title: "24/7 Tech Teams",
+      desc: "Reliable, cost-efficient, always on.",
+      icon: "LifeBuoy",
+    },
+  ],
+  cta: {
+    label: "Talk to an Advisor",
+    href: "/contact?type=advisor",
+    type: "secondary",
+  },
+};
+
+export const workspace = {
+  title: "From desk to data centre—we host it all.",
+  copy: "Incubation hubs, remote-first infrastructure, and enterprise-grade facilities connected to our cloud.",
+  cta: {
+    label: "Explore Workspace Solutions",
+    href: "/ecosystem/workspace",
+    type: "tertiary",
+  },
+};
+
+export const why = [
+  {
+    title: "Capital + Counsel",
+    desc: "We invest and mentor, not just bankroll.",
+  },
+  {
+    title: "Data + Cloud",
+    desc: "From datasets to sovereign hosting, we deliver the backbone.",
+  },
+  {
+    title: "People + Places",
+    desc: "Manpower and office infrastructure to scale.",
+  },
+  {
+    title: "Global Edge",
+    desc: "A network that connects startups to enterprises and investors worldwide.",
+  },
+];
+
+export const finalCta = {
+  title:
+    "Your idea deserves capital, cloud, and confidence. We bring all three.",
+  buttons: [
+    { label: "Upload Pitch Deck", href: "/contact?type=pitch" },
+    { label: "Request Dataset", href: "/contact?type=dataset" },
+    { label: "Apply for Cloud Hosting", href: "/contact?type=cloud" },
+    { label: "Talk to an Advisor", href: "/contact?type=advisor" },
+  ],
+  footer: "Pitch in. Plug in. Power up—with Mark One.",
+};
