@@ -1,3 +1,7 @@
+import SupportImg from "@/assets/support.jpg";
+import WorldImg from "@/assets/world.jpg";
+import TeamImg from "@/assets/team.jpg";
+import CloudImg from "@/assets/cloud.jpg";
 import {
   Facebook,
   Instagram,
@@ -229,20 +233,28 @@ export const workspace = {
   },
 };
 
-export const why = [
+export const whyMarkOne = [
   {
+    id: 1,
+    img: SupportImg,
     title: "Capital + Counsel",
     desc: "We invest and mentor, not just bankroll.",
   },
   {
+    id: 2,
+    img: CloudImg,
     title: "Data + Cloud",
     desc: "From datasets to sovereign hosting, we deliver the backbone.",
   },
   {
+    id: 3,
+    img: TeamImg,
     title: "People + Places",
     desc: "Manpower and office infrastructure to scale.",
   },
   {
+    id: 4,
+    img: WorldImg,
     title: "Global Edge",
     desc: "A network that connects startups to enterprises and investors worldwide.",
   },
