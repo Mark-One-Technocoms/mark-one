@@ -8,7 +8,7 @@ const About = () => {
       <div className="mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
         {/* Left Content */}
         <div className="md:w-4/7 my-auto">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-6">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-3">
             About Snapshot
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl leading-relaxed">

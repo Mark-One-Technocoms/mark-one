@@ -1,19 +1,22 @@
-import { Button } from "..";
+import { BgBoxEffect, Button } from "..";
 import { ironVaults } from "@/constants";
 import { CircleCheckBig } from "lucide-react";
 
 const DisruptionHighlight = () => {
   const { title, sub, bullets, cta } = ironVaults;
   return (
-    <section className="flex flex-col py-20 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-snug mb-3">
+    <section className="flex flex-col relative py-20 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
+      {/* Background - box effect */}
+      <BgBoxEffect />
+
+      <h2 className="max-w-4xl text-2xl md:text-3xl lg:text-4xl font-bold text-white text-center leading-snug mb-3 z-10">
         {title}
       </h2>
-      <p className="text-sm md:text-base lg:text-lg font-medium text-gray-200 leading-relaxed mb-6">
+      <p className="text-sm md:text-base lg:text-lg font-medium text-gray-200 leading-relaxed mb-6 z-10">
         {sub}
       </p>
 
-      <div className="max-w-2xl bg-accent text-gray-900 px-5 sm:px-8 py-3 sm:py-6 rounded-2xl mb-8 space-y-3">
+      <div className="max-w-2xl bg-accent text-gray-900 px-5 sm:px-8 py-3 sm:py-6 rounded-2xl mb-8 space-y-3 z-10">
         {bullets.map((bullet) => (
           <div className="flex gap-3 justify-center font-medium">
             <CircleCheckBig className="text-green-600" />
@@ -26,7 +29,7 @@ const DisruptionHighlight = () => {
         type={cta.type}
         size="lg"
         label={cta.label}
-        buttonClassName=""
+        buttonClassName="z-10"
       />
     </section>
   );
