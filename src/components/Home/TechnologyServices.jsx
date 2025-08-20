@@ -1,36 +1,42 @@
 import { Button } from "..";
+import { techServices } from "@/constants";
+import { Link } from "react-router-dom";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 const TechnologyServices = () => {
-  const services = [
-    { title: "SaaS Development", desc: "Build fast, scale globally." },
-    {
-      title: "Cloud & DevOps Support",
-      desc: "Monitoring, pipelines, automation.",
-    },
-    {
-      title: "AI Agent Integration",
-      desc: "Embed intelligent agents into workflows.",
-    },
-    { title: "24/7 Tech Teams", desc: "Reliable, cost-efficient, always on." },
-  ];
-
   return (
-    <section className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid gap-8 md:grid-cols-4">
-          {services.map(({ title, desc }) => (
-            <div
-              key={title}
-              className="p-6 rounded-lg bg-gray-50 shadow hover:shadow-lg transition"
-            >
-              <h3 className="font-semibold mb-2">{title}</h3>
-              <p className="text-gray-600 mb-4">{desc}</p>
-            </div>
+    <section className="bg-white max-w-[1920px] mx-auto px-4 md:px-6 lg:px-12 xl:px-24 py-20">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-5">
+        Technology Services
+      </h2>
+      <div className="flex flex-col items-center">
+        <div className="w-full grid gap-7 grid-cols-1 md:grid-cols-4 mb-6">
+          {techServices.items.map(({ id, title, desc, Icon }) => (
+            <Card key={id}>
+              <CardHeader>
+                <Icon className="size-10 mb-1" />
+                <CardTitle>{title}</CardTitle>
+                <CardDescription>{desc}</CardDescription>
+              </CardHeader>
+            </Card>
           ))}
         </div>
-        <div className="mt-8 text-center">
-          <Button type="primary" label="Talk to an Advisor" />
-        </div>
+        <Link to={techServices.cta.href}>
+          <Button
+            type={techServices.cta.type}
+            size="lg"
+            label={techServices.cta.label}
+            buttonClassName="w-fit"
+          />
+        </Link>
       </div>
     </section>
   );

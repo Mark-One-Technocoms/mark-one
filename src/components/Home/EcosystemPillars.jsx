@@ -14,7 +14,7 @@ import {
 const EcosystemPillars = () => {
   return (
     <section className="bg-white max-w-[1920px] mx-auto px-4 md:px-6 lg:px-12 xl:px-24 py-20">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-6">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-5">
         Ecosystem Pillars
       </h2>
       <div className="flex flex-col md:flex-row md:justify-between items-center md:gap-10 lg:gap-20 overflow-hidden">
@@ -22,7 +22,7 @@ const EcosystemPillars = () => {
           {pillars.map(({ id, title, desc, Icon, cta }) => (
             <Card key={id}>
               <CardHeader>
-                <Icon className="size-10" />
+                <Icon className="size-10 mb-1" />
                 <CardTitle>{title}</CardTitle>
                 <CardDescription>{desc}</CardDescription>
               </CardHeader>

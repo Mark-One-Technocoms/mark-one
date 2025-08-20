@@ -9,7 +9,7 @@ const About = () => {
         {/* Left Content */}
         <div className="md:w-4/7 my-auto">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-3">
-            About Snapshot
+            About Mark One
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl leading-relaxed">
             At <span className="font-semibold">Mark One</span>, we began as

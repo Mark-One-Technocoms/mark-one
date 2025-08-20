@@ -6,6 +6,9 @@ import {
   Wallet,
   Database,
   Cloud,
+  Code,
+  Workflow,
+  LifeBuoy,
 } from "lucide-react";
 
 export const navItems = [
@@ -185,30 +188,34 @@ export const outsourcing = {
 export const techServices = {
   items: [
     {
+      id: 1,
       title: "SaaS Development",
       desc: "Build fast, scale globally.",
-      icon: "Code",
+      Icon: Code,
     },
     {
+      id: 2,
       title: "Cloud & DevOps Support",
       desc: "Monitoring, pipelines, automation.",
-      icon: "Cloud",
+      Icon: Cloud,
     },
     {
+      id: 3,
       title: "AI Agent Integration",
       desc: "Embed intelligent agents into workflows.",
-      icon: "Workflow",
+      Icon: Workflow,
     },
     {
+      id: 4,
       title: "24/7 Tech Teams",
       desc: "Reliable, cost-efficient, always on.",
-      icon: "LifeBuoy",
+      Icon: LifeBuoy,
     },
   ],
   cta: {
     label: "Talk to an Advisor",
-    href: "/contact?type=advisor",
-    type: "secondary",
+    href: "/contact",
+    type: "primary",
   },
 };
 
