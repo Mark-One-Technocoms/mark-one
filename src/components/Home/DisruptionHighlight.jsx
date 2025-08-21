@@ -1,11 +1,12 @@
 import { BgBoxEffect, Button } from "..";
 import { ironVaults } from "@/constants";
 import { CircleCheckBig } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const DisruptionHighlight = () => {
   const { title, sub, bullets, cta } = ironVaults;
   return (
-    <section className="flex flex-col relative py-20 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-20 px-4 md:px-6 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
       <BgBoxEffect
         leftFromColor="from-red-700"
@@ -30,12 +31,16 @@ const DisruptionHighlight = () => {
         ))}
       </div>
 
-      <Button
-        type={cta.type}
-        size="lg"
-        label={cta.label}
-        buttonClassName="z-10"
-      />
+      <div className="z-10">
+        <Link to="/contact">
+          <Button
+            type={cta.type}
+            size="lg"
+            label={cta.label}
+            buttonClassName="z-10"
+          />
+        </Link>
+      </div>
     </section>
   );
 };

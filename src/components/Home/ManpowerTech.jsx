@@ -32,7 +32,7 @@ const ManpowerTech = () => {
 
         {/* Right Accent Block / Illustration Placeholder */}
         <div className="md:w-3/7 flex flex-col justify-center items-center mt-10 md:mt-0">
-          <img src={Img} alt="About Image" className="rounded-sm h-96" />
+          <img src={Img} alt="About Image" className="rounded-sm" />
         </div>
       </div>
     </section>

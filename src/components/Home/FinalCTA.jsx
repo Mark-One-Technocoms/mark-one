@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import { BgBoxEffect, Button } from "..";
 
 const FinalCTA = () => {
   return (
-    <section className="flex flex-col relative py-20 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-20 px-4 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
       <BgBoxEffect
         leftFromColor="from-red-700"
@@ -16,11 +17,19 @@ const FinalCTA = () => {
       </h2>
 
       {/* CTA Buttons */}
-      <div className="mt-4 flex flex-wrap gap-4">
-        <Button type="primary" size="lg" label="Upload Pitch Deck" />
-        <Button type="secondary" size="lg" label="Request Dataset" />
-        <Button type="secondary" size="lg" label="Apply for Cloud Hosting" />
-        <Button type="secondary" size="lg" label="Talk to an Advisor" />
+      <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-2 z-10">
+        <Link to="/contact">
+          <Button type="primary" size="lg" label="Upload Pitch Deck" />
+        </Link>
+        <Link to="/contact">
+          <Button type="secondary" size="lg" label="Request Dataset" />
+        </Link>
+        <Link to="/contact">
+          <Button type="secondary" size="lg" label="Apply for Cloud Hosting" />
+        </Link>
+        <Link to="/contact">
+          <Button type="secondary" size="lg" label="Talk to an Advisor" />
+        </Link>
       </div>
 
       <p className="text-sm md:text-base xl:text-lg font-medium text-gray-200 leading-relaxed my-6 z-10">
