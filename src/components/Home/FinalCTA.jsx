@@ -12,6 +12,7 @@ const FinalCTA = () => {
         rightToColor="to-red-500"
       />
 
+      {/* Tilte */}
       <h2 className="max-w-3xl text-2xl lg:text-3xl xl:text-4xl font-bold text-white text-center leading-snug mb-3 z-10">
         Your idea deserves capital, cloud, and confidence. We bring all three.
       </h2>

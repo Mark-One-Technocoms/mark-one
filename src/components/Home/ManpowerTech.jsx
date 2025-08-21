@@ -8,6 +8,7 @@ const ManpowerTech = () => {
       <div className="mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
         {/* Left Content */}
         <div className="md:w-4/7 my-auto">
+          {/* Title */}
           <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-snug mb-3">
             Manpower & Tech Outsourcing
           </h2>

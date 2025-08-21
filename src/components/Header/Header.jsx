@@ -43,11 +43,11 @@ const Header = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full shadow-sm z-50">
-      <nav className="bg-white max-w-[1920px] h-12 sm:h-16 px-4 md:px-6 lg:px-12 xl:px-24 flex justify-between mx-auto items-center">
+      <nav className="bg-white max-w-[1920px] h-16 px-4 md:px-6 lg:px-12 xl:px-24 flex justify-between mx-auto items-center">
         {/* Logo or Brand Name - Visible on all screens */}
         <div className="flex-shrink-0">
           <Link to="/">
-            <img className="h-10 xl:h-12 py-2" src={Logo} alt="Packways_Logo" />
+            <img className="h-12 py-2" src={Logo} alt="Packways_Logo" />
           </Link>
         </div>
 
@@ -108,8 +108,8 @@ const Header = () => {
                 <DialogDescription className="sr-only">
                   Browse menu items
                 </DialogDescription>
-                <Link to="/" className="">
-                  <img className="h-7" src={Logo} alt="Iron Data Logo" />
+                <Link to="/">
+                  <img className="h-6 sm:h-7" src={Logo} alt="Iron Data Logo" />
                 </Link>
               </SheetHeader>
 

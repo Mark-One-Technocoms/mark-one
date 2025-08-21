@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "..";
 import { socialMediaLinks } from "@/constants";
+import Logo from "@/assets/logo/Mark_one_logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="grid sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-12">
         {/* Company Info */}
         <div className="sm:col-span-3 md:col-span-2">
-          <h2 className="text-gray-900 text-xl font-bold">Mark One</h2>
+          <img src={Logo} alt="Mark One" className="h-10" />
           <p className="text-gray-700 font-medium mt-4 text-sm leading-relaxed max-w-sm">
             Learn more about how Mark One can help your company streamline
             customer communications, deliver 24×7 support, and optimize

@@ -2,7 +2,7 @@ import Img from "@/assets/about.png";
 
 const OurStory = () => {
   return (
-    <section className="pb-16 pt-5">
+    <section className="pb-16 mt-16">
       <div className="mx-auto">
         <img src={Img} alt="About Mark One" className="rounded-2xl w-full" />
         {/* Heading */}

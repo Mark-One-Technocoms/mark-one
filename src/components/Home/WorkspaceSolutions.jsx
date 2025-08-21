@@ -12,6 +12,7 @@ const WorkspaceSolutions = () => {
         rightToColor="to-gray-500"
       />
 
+      {/* Title */}
       <h2 className="max-w-4xl text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 text-center leading-snug mb-3 z-10">
         From desk to data centre—we host it all.
       </h2>
@@ -19,6 +20,8 @@ const WorkspaceSolutions = () => {
         Incubation hubs, remote-first infrastructure, and enterprise-grade
         facilities connected to our cloud.
       </p>
+
+      {/* CTA Buttons */}
       <div className="z-10">
         <Link to="/contact">
           <Button

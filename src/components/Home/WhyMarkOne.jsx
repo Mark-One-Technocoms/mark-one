@@ -1,10 +1,7 @@
 import { whyMarkOne } from "@/constants";
 import {
   Card,
-  CardAction,
-  CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -12,9 +9,7 @@ import {
 const WhyMarkOne = () => {
   return (
     <section className="bg-white max-w-[1920px] flex flex-col relative justify-center mx-auto px-4 md:px-6 lg:px-12 xl:px-24 py-20 border-red-500 overflow-hidden">
-      {/* Background - box effect */}
-      {/* <BgBoxEffect /> */}
-
+      {/* Title */}
       <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-snug mb-3">
         Why Mark One
       </h2>
@@ -22,6 +17,7 @@ const WhyMarkOne = () => {
         Four pillars that define how we build and scale with our partners.
       </p>
 
+      {/* Whu mark one cards */}
       <div className="w-full grid gap-7 grid-cols-1 md:grid-cols-4 my-6">
         {whyMarkOne.map(({ id, img, title, desc }) => (
           <div key={title} className="">
