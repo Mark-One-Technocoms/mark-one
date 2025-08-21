@@ -13,10 +13,10 @@ const Hero = () => {
         <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
           {title}
         </h1>
-        <p className="mt-6 text-sm xl:text-lg font-medium text-gray-600 max-w-xl">
+        <p className="mt-6 text-sm md:text-base xl:text-lg font-medium text-gray-600 max-w-xl">
           {subline}
         </p>
-        <p className="mt-3 text-sm xl:text-lg font-medium text-gray-600 max-w-xl">
+        <p className="mt-3 text-sm md:text-base xl:text-lg font-medium text-gray-600 max-w-xl">
           {tagline}
         </p>
 

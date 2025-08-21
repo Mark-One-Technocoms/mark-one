@@ -10,7 +10,7 @@ const Button = ({
     type === "primary"
       ? "from-red-700 to-red-500 hover:from-red-500 hover:to-red-700 text-white"
       : type === "secondary"
-      ? "border border-gray-300 from-gray-200 to-gray-50 hover:from-gray-50 hover:to-gray-100 text-gray-900"
+      ? "border border-gray-300 from-gray-300 to-gray-100 hover:from-gray-50 hover:to-gray-100 text-gray-900"
       : type === "tertiary"
       ? "border border-2 border-red-600 hover:border-red-400 text-red-600 hover:text-red-500"
       : "";

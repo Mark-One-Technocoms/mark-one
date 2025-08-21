@@ -15,10 +15,10 @@ const WhyMarkOne = () => {
       {/* Background - box effect */}
       {/* <BgBoxEffect /> */}
 
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-3">
+      <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-snug mb-3">
         Why Mark One
       </h2>
-      <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl leading-relaxed">
+      <p className="text-sm md:text-base xl:text-lg text-gray-600 max-w-3xl leading-relaxed">
         Four pillars that define how we build and scale with our partners.
       </p>
 

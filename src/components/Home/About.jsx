@@ -8,10 +8,10 @@ const About = () => {
       <div className="mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
         {/* Left Content */}
         <div className="md:w-4/7 my-auto">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug mb-3">
+          <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-snug mb-3">
             About Mark One
           </h2>
-          <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl leading-relaxed">
+          <p className="text-sm md:text-base xl:text-lg text-gray-600 max-w-3xl leading-relaxed">
             At <span className="font-semibold">Mark One</span>, we began as
             service providers. In 2025, we stand transformed—an ecosystem
             partner for startups, enterprises, and governments building the
