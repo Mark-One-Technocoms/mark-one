@@ -1,22 +1,23 @@
 import { Link } from "react-router-dom";
 import { BgBoxEffect, Button } from "..";
+import { BackgroundBeams } from "../ui/background-beams";
 
 const WorkspaceSolutions = () => {
   return (
-    <section className="flex flex-col relative py-20 px-4 md:px-6 bg-gradient-to-tr from-gray-400 to-gray-50 text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-20 px-4 md:px-6 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
-      <BgBoxEffect
+      {/* <BgBoxEffect
         leftFromColor="from-gray-700"
         leftToColor="to-gray-200"
         rightFromColor="from-gray-200"
         rightToColor="to-gray-500"
-      />
+      /> */}
 
       {/* Title */}
-      <h2 className="max-w-4xl text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 text-center leading-snug mb-3 z-10">
+      <h2 className="max-w-4xl text-2xl lg:text-3xl xl:text-4xl font-bold text-white text-center leading-snug mb-3 z-10">
         From desk to data centre—we host it all.
       </h2>
-      <p className="text-sm md:text-base xl:text-lg font-medium text-gray-600 text-center leading-relaxed mb-6 z-10">
+      <p className="text-sm md:text-base xl:text-lg font-medium text-white text-center leading-relaxed mb-6 z-10">
         Incubation hubs, remote-first infrastructure, and enterprise-grade
         facilities connected to our cloud.
       </p>
@@ -31,6 +32,7 @@ const WorkspaceSolutions = () => {
           />
         </Link>
       </div>
+      <BackgroundBeams />
     </section>
   );
 };

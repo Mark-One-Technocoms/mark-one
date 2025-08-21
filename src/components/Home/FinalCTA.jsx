@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import { BgBoxEffect, Button } from "..";
+import { BackgroundBeams } from "../ui/background-beams";
 
 const FinalCTA = () => {
   return (
-    <section className="flex flex-col relative py-20 px-4 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-20 px-4 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
-      <BgBoxEffect
+      {/* <BgBoxEffect
         leftFromColor="from-red-700"
         leftToColor="to-red-200"
         rightFromColor="from-red-200"
         rightToColor="to-red-500"
-      />
+      /> */}
 
       {/* Tilte */}
       <h2 className="max-w-3xl text-2xl lg:text-3xl xl:text-4xl font-bold text-white text-center leading-snug mb-3 z-10">
@@ -33,9 +34,10 @@ const FinalCTA = () => {
         </Link>
       </div>
 
-      <p className="text-sm md:text-base xl:text-lg font-medium text-gray-200 leading-relaxed my-6 z-10">
+      <p className="text-sm md:text-base xl:text-lg font-medium text-white leading-relaxed my-6 z-10">
         Pitch in . Plug in . Power up
       </p>
+      <BackgroundBeams />
     </section>
   );
 };

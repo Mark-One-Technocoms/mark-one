@@ -1,6 +1,6 @@
 import { Button } from "..";
 import { Link } from "react-router-dom";
-import Img from "@/assets/manpower_4.png";
+import Img from "@/assets/tech.jpg";
 
 const ManpowerTech = () => {
   return (

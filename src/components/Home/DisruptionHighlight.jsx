@@ -2,24 +2,25 @@ import { BgBoxEffect, Button } from "..";
 import { ironVaults } from "@/constants";
 import { CircleCheckBig } from "lucide-react";
 import { Link } from "react-router-dom";
+import { BackgroundBeams } from "../ui/background-beams";
 
 const DisruptionHighlight = () => {
   const { title, sub, bullets, cta } = ironVaults;
   return (
-    <section className="flex flex-col relative py-20 px-4 md:px-6 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-20 px-4 md:px-6 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
-      <BgBoxEffect
-        leftFromColor="from-red-700"
-        leftToColor="to-red-200"
-        rightFromColor="from-red-200"
-        rightToColor="to-red-500"
-      />
+      {/* <BgBoxEffect
+        leftFromColor="from-yellow-700"
+        leftToColor="to-yellow-200"
+        rightFromColor="from-yellow-200"
+        rightToColor="to-yellow-500"
+      /> */}
 
       {/* Title */}
       <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-white text-center leading-snug mb-3 z-10">
         {title}
       </h2>
-      <p className="text-sm md:text-base xl:text-lg font-medium text-gray-200 leading-relaxed mb-6 z-10">
+      <p className="text-sm md:text-base xl:text-lg font-medium text-white leading-relaxed mb-6 z-10">
         {sub}
       </p>
 
@@ -44,6 +45,7 @@ const DisruptionHighlight = () => {
           />
         </Link>
       </div>
+      <BackgroundBeams />
     </section>
   );
 };
