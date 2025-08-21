@@ -25,7 +25,7 @@ import { Button } from "../";
 import { DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Menu, ChevronDown } from "lucide-react";
 import { navItems } from "../../constants";
-import Logo from "../../assets/logo/Mark_One_Logo.png";
+import Logo from "@/assets/logo/Mark_One_logo.png";
 
 const Header = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
