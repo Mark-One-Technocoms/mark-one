@@ -102,7 +102,8 @@ export const socialMediaLinks = [
 ];
 
 export const hero = {
-  title: "Mark One – Capital. Cloud. Confidence.",
+  title: "Capital . Cloud . Confidence",
+  titleSwap: "Confidence to Build. Capital to Scale. Cloud to Last",
   subline:
     "We are investors, mentors, and builders of the next-generation AI, SaaS, and data ecosystems.",
   tagline: "Build with our money. Scale with our people. Deploy on our cloud.",
@@ -165,10 +166,10 @@ export const pillars = [
 ];
 
 export const ironVaults = {
-  title: "Iron Data Vaults – Redefining how the world stores and owns data.",
+  title: "Redefining how the world stores and owns data.",
   sub: "The cloud is no longer a service. It’s an asset you can own.",
   bullets: [
-    "Sovereign AI data centres in Delhi & Dehradun",
+    "Sovereign AI data centres",
     "Fractional cloud ownership (tokenized infrastructure)",
     "AI-optimized for training, inference, and high-performance workloads",
   ],

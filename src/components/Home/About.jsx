@@ -10,16 +10,14 @@ const About = () => {
         <div className="md:w-4/7 my-auto">
           {/* Title */}
           <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-snug mb-3">
-            About Mark One
+            Who We Are
           </h2>
           <p className="text-sm md:text-base xl:text-lg text-gray-600 max-w-3xl leading-relaxed">
-            At <span className="font-semibold">Mark One</span>, we began as
-            service providers. In 2025, we stand transformed—an ecosystem
-            partner for startups, enterprises, and governments building the
-            future of AI and cloud. We empower founders, accelerate SaaS
-            ventures, deliver structured data, and operate{" "}
-            <span className="font-semibold">Iron Data Vaults</span>—our
-            sovereign AI-ready data centres.
+            We began as service providers. In 2025, we stand transformed—an
+            ecosystem partner for startups, enterprises, and governments
+            building the future of AI and cloud. We empower founders, accelerate
+            SaaS ventures, deliver structured data, and operate Iron Data Vaults
+            - our sovereign AI-ready data centres.
           </p>
 
           {/* CTA Button */}
@@ -28,7 +26,7 @@ const About = () => {
               <Button
                 type="primary"
                 size="lg"
-                label="Learn More About Us"
+                label="Learn More"
                 buttonClassName="w-fit"
               />
             </Link>

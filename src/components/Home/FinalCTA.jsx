@@ -34,7 +34,7 @@ const FinalCTA = () => {
       </div>
 
       <p className="text-sm md:text-base xl:text-lg font-medium text-gray-200 leading-relaxed my-6 z-10">
-        Pitch in. Plug in. Power up — with Mark One
+        Pitch in . Plug in . Power up
       </p>
     </section>
   );

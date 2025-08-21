@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="sm:col-span-3 md:col-span-2">
           <img src={Logo} alt="Mark One" className="h-10" />
           <p className="text-gray-700 font-medium mt-4 text-sm leading-relaxed max-w-sm">
-            Learn more about how Mark One can help your company streamline
-            customer communications, deliver 24×7 support, and optimize
-            solutions to maximize efficiency.
+            Learn more about how we can help your company streamline customer
+            communications, deliver 24×7 support, and optimize solutions to
+            maximize efficiency.
           </p>
           <div className="mt-8 flex gap-4">
             <Link to="contact">
