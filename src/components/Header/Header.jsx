@@ -47,7 +47,7 @@ const Header = () => {
         {/* Logo or Brand Name - Visible on all screens */}
         <div className="flex-shrink-0">
           <Link to="/">
-            <img className="h-12 py-2" src={Logo} alt="Packways_Logo" />
+            <img src={Logo} alt="Mark One" className="h-12 py-2" />
           </Link>
         </div>
 

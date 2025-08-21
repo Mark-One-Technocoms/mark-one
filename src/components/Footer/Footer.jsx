@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "..";
 import { socialMediaLinks } from "@/constants";
-import Logo from "@/assets/logo/Mark_one_logo.png";
+import Logo from "@/assets/logo/Mark_One_logo.png";
 
 const Footer = () => {
   return (
