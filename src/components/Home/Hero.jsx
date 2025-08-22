@@ -7,7 +7,7 @@ const Hero = () => {
   const { title, subline, tagline, ctas } = hero;
 
   return (
-    <section className="h-[calc(100vh-64px)] max-w-[1920px] mt-16 mx-auto px-4 md:px-6 lg:px-12 xl:px-24 py-10 flex flex-col md:flex-row justify-center md:justify-between items-center md:gap-10 lg:gap-20 overflow-hidden">
+    <section className="h-[calc(100vh-64px)] max-w-[1920px] mx-auto px-4 md:px-6 lg:px-12 xl:px-24 py-10 flex flex-col md:flex-row justify-center md:justify-between items-center md:gap-10 lg:gap-20 overflow-hidden">
       {/* Hero Content */}
       <div className="md:w-1/2">
         <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">

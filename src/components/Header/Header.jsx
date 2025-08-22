@@ -41,8 +41,8 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full shadow-sm z-50">
-      <nav className="bg-white max-w-[1920px] h-16 px-4 md:px-6 lg:px-12 xl:px-24 flex justify-between mx-auto items-center">
+    <div className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+      <nav className="max-w-[1920px] h-16 px-4 md:px-6 lg:px-12 xl:px-24 flex justify-between mx-auto items-center">
         {/* Logo or Brand Name - Visible on all screens */}
         <div className="flex-shrink-0">
           <Link to="/">

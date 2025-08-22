@@ -11,7 +11,6 @@ import TechnologyServices from "./Home/TechnologyServices";
 import WhyMarkOne from "./Home/WhyMarkOne";
 import WorkspaceSolutions from "./Home/WorkspaceSolutions";
 import Button from "./Generic/Button.jsx";
-import OurStory from "./About/OurStory";
 import BgBoxEffect from "./Effects/BgBoxEffect";
 
 export {
@@ -28,6 +27,5 @@ export {
   WhyMarkOne,
   WorkspaceSolutions,
   Button,
-  OurStory,
   BgBoxEffect,
 };

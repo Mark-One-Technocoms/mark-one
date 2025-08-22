@@ -230,3 +230,16 @@ export const finalCta = {
   ],
   footer: "Pitch in. Plug in. Power up—with Mark One.",
 };
+
+export const missionList = [
+  "Invest & mentor AI and cloud-driven startups.",
+  "Engineer and deliver on-demand data solutions for global AI companies.",
+  "Build and operate sovereign data vaults that redefine cloud ownership.",
+  "Provide manpower, outsourcing, and office infrastructure to help businesses scale.",
+];
+
+export const vissionList = [
+  "Democratize the cloud.",
+  "Transform data into an asset, not just a service.",
+  "Mentor and fund the companies that will shape the AI-powered future.",
+];

@@ -6,7 +6,7 @@ function App() {
     <>
       <ScrollToTop />
       <Header />
-      <div className="">
+      <div className="mt-16">
         <Outlet />
       </div>
       <Footer />
