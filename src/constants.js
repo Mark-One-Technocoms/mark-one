@@ -101,6 +101,13 @@ export const socialMediaLinks = [
   { id: 4, label: "twitter", to: "#", icon: Twitter },
 ];
 
+export const quickLinks = [
+  { id: 1, label: "About", to: "about" },
+  { id: 2, label: "Services", to: "services" },
+  { id: 3, label: "Data Vaults", to: "data-vaults" },
+  { id: 4, label: "Contact", to: "contact" },
+];
+
 export const hero = {
   title: "Capital . Cloud . Confidence",
   titleSwap: "Confidence to Build. Capital to Scale. Cloud to Last",
