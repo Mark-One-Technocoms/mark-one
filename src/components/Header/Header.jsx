@@ -21,7 +21,6 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { Button as IconButton } from "@/components/ui/button";
-import { Button } from "../";
 import { DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Menu, ChevronDown } from "lucide-react";
 import { navItems } from "../../constants";
@@ -47,7 +46,11 @@ const Header = () => {
         {/* Logo or Brand Name - Visible on all screens */}
         <div className="flex-shrink-0">
           <Link to="/">
-            <img src={Logo} alt="Mark One" className="h-12 py-2" />
+            <img
+              src={Logo}
+              alt="Mark One"
+              className="h-12 lg:h-10 xl:h-12 py-2"
+            />
           </Link>
         </div>
 
