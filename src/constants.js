@@ -33,8 +33,8 @@ export const navItems = [
   },
   {
     id: 4,
-    label: "Iron Data Vaults",
-    to: "iron-data-vaults",
+    label: "Cloud & Hosting",
+    to: "cloud-and-Hosting",
   },
   {
     id: 5,
@@ -269,11 +269,25 @@ export const services = [
   "Data Cleaning & Correction — Turn raw data into ready intelligence.",
   "Global Collection — We’ll go anywhere in the world to get the datasets you need.",
   "Manpower at Scale — From 50 to 5,000 annotators or engineers—delivered on time.",
-  "Domain Expertise — Healthcare, finance, legal, retail, logistics."
+  "Domain Expertise — Healthcare, finance, legal, retail, logistics.",
 ];
 
 export const outcomes = [
   "Quality you can audit and trust",
   "Secure pipelines built for AI training & inference",
-  "Fast, repeatable delivery for pilots and production"
+  "Fast, repeatable delivery for pilots and production",
+];
+
+export const solutions = [
+  "Sovereign AI Data Centres — Flagship facilities in Delhi and Dehradun, purpose-built for AI and SaaS.",
+  "Fractional Cloud Ownership — Don’t just rent—own a piece of the cloud through tokenised infrastructure.",
+  "AI-Optimised — Designed for GPU training, inference, and high-performance workloads.",
+  "Democratised Access — From startups to enterprises, cloud ownership is no longer a monopoly.",
+];
+
+export const whyItMatters = [
+  "Control your stack and data residency.",
+  "Align costs with asset ownership.",
+  "Performance for modern AI pipelines.",
+  "New models for national and enterprise sovereignty.",
 ];

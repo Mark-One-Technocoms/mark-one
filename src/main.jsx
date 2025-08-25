@@ -8,7 +8,13 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import { Home, About, InvestmentMentorship, DataServices } from "./pages";
+import {
+  Home,
+  About,
+  InvestmentMentorship,
+  DataServices,
+  CloudHosting,
+} from "./pages";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +26,7 @@ const router = createBrowserRouter(
         element={<InvestmentMentorship />}
       />
       <Route path="data-services" element={<DataServices />} />
+      <Route path="cloud-and-hosting" element={<CloudHosting />} />
     </Route>
   )
 );
