@@ -243,3 +243,23 @@ export const vissionList = [
   "Transform data into an asset, not just a service.",
   "Mentor and fund the companies that will shape the AI-powered future.",
 ];
+
+export const whatWeFund = [
+  "Cloud-native SaaS and platform infrastructure",
+  "AI Agents and applied AI products",
+  "Data tooling and workflows (collection, labelling, quality)",
+  "Outsourcing/process innovations that scale AI adoption",
+];
+
+export const howWeMentor = [
+  "Capital + counsel from operators and domain experts",
+  "Go-to-market support and enterprise introductions",
+  "Product acceleration inside our cloud infrastructure",
+  "Talent and execution support from our outsourcing network",
+];
+
+export const programAdvantages = [
+  "Incubation inside Iron Data Vaults (GPU-ready, secure)",
+  "Co-building sprints to hit key milestones",
+  "Optional workspace and remote team setup",
+];

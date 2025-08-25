@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "..";
 import { socialMediaLinks, quickLinks } from "@/constants";
-import Logo from "@/assets/logo/Mark_One_logo.png";
+import Logo from "@/assets/logo/Mark1.png";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="lg:flex lg:justify-between space-y-10 lg:space-y-0 text-sm text-gray-700 font-medium">
         {/* Company Info */}
         <div>
-          <img src={Logo} alt="Mark One" className="h-10" />
+          <img src={Logo} alt="Mark One" className="h-7 lg:h-5.5 xl:h-7" />
           <p className="mt-4 leading-relaxed max-w-sm">
             Learn more about how we can help your company streamline customer
             communications, deliver 24×7 support, and optimize solutions to

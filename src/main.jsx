@@ -8,13 +8,17 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import { Home, About } from "./pages";
+import { Home, About, InvestmentMentorship } from "./pages";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route
+        path="investment-and-mentorship"
+        element={<InvestmentMentorship />}
+      />
     </Route>
   )
 );
