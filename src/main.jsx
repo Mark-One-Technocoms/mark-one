@@ -8,7 +8,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import { Home, About, InvestmentMentorship } from "./pages";
+import { Home, About, InvestmentMentorship, DataServices } from "./pages";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +19,7 @@ const router = createBrowserRouter(
         path="investment-and-mentorship"
         element={<InvestmentMentorship />}
       />
+      <Route path="data-services" element={<DataServices />} />
     </Route>
   )
 );

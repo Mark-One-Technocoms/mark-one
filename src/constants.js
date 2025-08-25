@@ -263,3 +263,17 @@ export const programAdvantages = [
   "Co-building sprints to hit key milestones",
   "Optional workspace and remote team setup",
 ];
+
+export const services = [
+  "Custom Datasets — Structured, labelled, and formatted to order.",
+  "Data Cleaning & Correction — Turn raw data into ready intelligence.",
+  "Global Collection — We’ll go anywhere in the world to get the datasets you need.",
+  "Manpower at Scale — From 50 to 5,000 annotators or engineers—delivered on time.",
+  "Domain Expertise — Healthcare, finance, legal, retail, logistics."
+];
+
+export const outcomes = [
+  "Quality you can audit and trust",
+  "Secure pipelines built for AI training & inference",
+  "Fast, repeatable delivery for pilots and production"
+];
