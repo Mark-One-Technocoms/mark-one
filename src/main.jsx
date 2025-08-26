@@ -15,6 +15,7 @@ import {
   DataServices,
   CloudHosting,
   Outsourcing,
+  TechnologyServices,
 } from "./pages";
 
 const router = createBrowserRouter(
@@ -29,6 +30,7 @@ const router = createBrowserRouter(
       <Route path="data-services" element={<DataServices />} />
       <Route path="cloud-and-hosting" element={<CloudHosting />} />
       <Route path="outsourcing" element={<Outsourcing />} />
+      <Route path="technology-services" element={<TechnologyServices />} />
     </Route>
   )
 );

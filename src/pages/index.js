@@ -4,6 +4,7 @@ import InvestmentMentorship from "./InvestmentMentorship/InvestmentMentorship";
 import DataServices from "./DataServices/DataServices";
 import CloudHosting from "./CloudHosting/CloudHosting";
 import Outsourcing from "./Outsourcing/Outsourcing";
+import TechnologyServices from "./TechnologyServices/TechnologyServices";
 
 export {
   Home,
@@ -12,4 +13,5 @@ export {
   DataServices,
   CloudHosting,
   Outsourcing,
+  TechnologyServices,
 };

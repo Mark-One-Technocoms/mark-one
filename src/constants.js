@@ -308,3 +308,16 @@ export const outsourcingBenefits = [
   "SLAs for quality, security, and delivery",
   "Elastic scale from pilot to production",
 ];
+
+export const techServicescapabilities = [
+  "SaaS & Custom Development — Build fast, scale globally",
+  "Cloud & DevOps Support — Monitoring, pipelines, automation",
+  "AI Agent Integration — Embed intelligent agents into workflows",
+  "24/7 Tech Support Teams — Outsourced, reliable, cost-efficient",
+];
+
+export const techServicesoutcomes = [
+  "Ship reliable software faster",
+  "Hardened infra for AI and data apps",
+  "Lower operating costs with round-the-clock coverage",
+];
