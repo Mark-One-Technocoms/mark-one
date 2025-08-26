@@ -8,19 +8,9 @@ import {
 import { Button } from "@/components";
 import { CircleCheckBig } from "lucide-react";
 import Img from "@/assets/outsorcing.jpg";
+import { outsourcingServices, outsourcingBenefits } from "@/constants";
 
 const Outsourcing = () => {
-  const services = [
-    "Engineers, annotators, customer support, process managers",
-    "Remote teams, project outsourcing, or fully managed services",
-    "AI model testers, healthcare coders, financial analysts, multilingual support teams",
-  ];
-
-  const benefits = [
-    "Rapid team assembly and onboarding",
-    "SLAs for quality, security, and delivery",
-    "Elastic scale from pilot to production",
-  ];
   return (
     <>
       {/* Hero / Intro */}
@@ -67,7 +57,7 @@ const Outsourcing = () => {
               <CardTitle>What We Offer</CardTitle>
               <CardDescription>
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
-                  {services.map((mission, idx) => (
+                  {outsourcingServices.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
                       <CircleCheckBig className="text-green-600" />
                       {mission}
@@ -84,7 +74,7 @@ const Outsourcing = () => {
               <CardTitle>Benefits</CardTitle>
               <CardDescription>
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
-                  {benefits.map((mission, idx) => (
+                  {outsourcingBenefits.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
                       <CircleCheckBig className="text-green-600" />
                       {mission}

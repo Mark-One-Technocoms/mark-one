@@ -296,3 +296,15 @@ export const whyItMatters = [
   "Performance for modern AI pipelines.",
   "New models for national and enterprise sovereignty.",
 ];
+
+export const outsourcingServices = [
+  "Engineers, annotators, customer support, process managers",
+  "Remote teams, project outsourcing, or fully managed services",
+  "AI model testers, healthcare coders, financial analysts, multilingual support teams",
+];
+
+export const outsourcingBenefits = [
+  "Rapid team assembly and onboarding",
+  "SLAs for quality, security, and delivery",
+  "Elastic scale from pilot to production",
+];

@@ -26,8 +26,8 @@ const DisruptionHighlight = () => {
 
       {/* Bullet points */}
       <div className="max-w-2xl bg-accent text-sm md:text-base xl:text-lg text-gray-900 px-5 sm:px-8 py-3 sm:py-6 rounded-2xl mb-8 space-y-3 z-10">
-        {bullets.map((bullet) => (
-          <div className="flex gap-3 justify-center font-medium">
+        {bullets.map((bullet, idx) => (
+          <div key={idx} className="flex gap-3 justify-center font-medium">
             <CircleCheckBig className="text-green-600" />
             <h1>{bullet}</h1>
           </div>
