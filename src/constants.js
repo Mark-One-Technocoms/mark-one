@@ -41,8 +41,13 @@ export const navItems = [
     label: "Outsourcing",
     to: "outsourcing",
   },
-  { id: 6, label: "Office & Workspace", to: "office-and-workspace" },
-  { id: 7, label: "Contact", to: "contact" },
+  {
+    id: 6,
+    label: "Technology Services",
+    to: "technology-services",
+  },
+  { id: 7, label: "Office & Workspace", to: "office-and-workspace" },
+  { id: 8, label: "Contact", to: "contact" },
 ];
 
 export const socialMediaLinks = [
