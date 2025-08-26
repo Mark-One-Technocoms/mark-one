@@ -25,7 +25,7 @@ const Footer = () => {
                 to={socialMediaLink.to}
                 className="hover:text-blue-400 transition-colors duration-300"
               >
-                <socialMediaLink.icon className="size-6" />
+                <socialMediaLink.icon className="size-8 sm:size-7" />
               </Link>
             ))}
           </div>
