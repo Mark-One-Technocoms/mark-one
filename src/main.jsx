@@ -14,6 +14,7 @@ import {
   InvestmentMentorship,
   DataServices,
   CloudHosting,
+  Outsourcing,
 } from "./pages";
 
 const router = createBrowserRouter(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
       />
       <Route path="data-services" element={<DataServices />} />
       <Route path="cloud-and-hosting" element={<CloudHosting />} />
+      <Route path="outsourcing" element={<Outsourcing />} />
     </Route>
   )
 );

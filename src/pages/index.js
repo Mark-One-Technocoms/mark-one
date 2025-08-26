@@ -3,5 +3,13 @@ import About from "./About/About";
 import InvestmentMentorship from "./InvestmentMentorship/InvestmentMentorship";
 import DataServices from "./DataServices/DataServices";
 import CloudHosting from "./CloudHosting/CloudHosting";
+import Outsourcing from "./Outsourcing/Outsourcing";
 
-export { Home, About, InvestmentMentorship, DataServices, CloudHosting };
+export {
+  Home,
+  About,
+  InvestmentMentorship,
+  DataServices,
+  CloudHosting,
+  Outsourcing,
+};
