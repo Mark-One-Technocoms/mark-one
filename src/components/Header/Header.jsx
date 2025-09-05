@@ -26,6 +26,23 @@ import { Menu, ChevronDown } from "lucide-react";
 import { navItems } from "../../constants";
 import Logo from "@/assets/logo/Mark1.png";
 
+function ListItem({ title, children, href, ...props }) {
+  return (
+    <li {...props}>
+      <NavigationMenuLink asChild>
+        <Link to={href}>
+          <div className="text-xs xl:text-sm leading-none font-medium">
+            {title}
+          </div>
+          <p className="text-muted-foreground line-clamp-2 text-xs xl:text-sm font-normal">
+            {children}
+          </p>
+        </Link>
+      </NavigationMenuLink>
+    </li>
+  );
+}
+
 const Header = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   // State to manage which collapsible item is open in the mobile sheet
@@ -64,13 +81,17 @@ const Header = () => {
                     <NavigationMenuContent className="">
                       {/* If items exist, render a dropdown menu */}
                       <NavigationMenuList className="flex-col">
-                        {items.map((item) => (
-                          <NavigationMenuItem key={item.id}>
-                            <NavigationMenuLink asChild className="w-40 py-3">
-                              <Link to={item.to}>{item.label}</Link>
-                            </NavigationMenuLink>
-                          </NavigationMenuItem>
-                        ))}
+                        <ul className="grid grid-cols-2 w-[600px] p-2">
+                          {items.map((item) => (
+                            <ListItem
+                              key={item.id}
+                              title={item.label}
+                              href={item.to}
+                            >
+                              {item.description}
+                            </ListItem>
+                          ))}
+                        </ul>
                       </NavigationMenuList>
                     </NavigationMenuContent>
                   </NavigationMenuItem>

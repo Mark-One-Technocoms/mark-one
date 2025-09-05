@@ -18,11 +18,18 @@ import {
 export const navItems = [
   {
     id: 1,
+    label: "Home",
+    to: "/",
+    description:
+      "For sighted users to preview content available behind a link.",
+  },
+  {
+    id: 2,
     label: "About",
     to: "about",
   },
   {
-    id: 2,
+    id: 3,
     label: "Our Ecosystem Pillars",
     to: "",
     items: [
@@ -30,32 +37,42 @@ export const navItems = [
         id: 1,
         label: "Investment & Mentorship",
         to: "investment-and-mentorship",
+        description: "Capital, mentorship, and market access for founders.",
       },
       {
         id: 2,
         label: "Data Services",
         to: "data-services",
+        description: "Custom datasets, cleaning, and global collection.",
       },
       {
         id: 3,
         label: "Cloud & Hosting",
         to: "cloud-and-Hosting",
+        description: "Sovereign AI-ready data centres you can own.",
       },
       {
         id: 4,
         label: "Outsourcing",
         to: "outsourcing",
+        description: "Manpower and tech outsourcing to scale your business.",
       },
       {
         id: 5,
         label: "Technology Services",
         to: "technology-services",
+        description: "SaaS, DevOps, AI integration, and 24/7 support.",
       },
-      { id: 6, label: "Office & Workspace", to: "office-and-workspace" },
+      {
+        id: 6,
+        label: "Office & Workspace",
+        to: "office-and-workspace",
+        description: "Flexible hubs, enterprise facilities, and remote setups.",
+      },
     ],
   },
-  { id: 3, label: "Why Choose Us", to: "why-mark-one" },
-  { id: 4, label: "Contact", to: "contact" },
+  { id: 4, label: "Why Choose Us", to: "why-mark-one" },
+  { id: 5, label: "Contact", to: "contact" },
 ];
 
 export const socialMediaLinks = [
