@@ -23,32 +23,39 @@ export const navItems = [
   },
   {
     id: 2,
-    label: "Investment & Mentorship",
-    to: "investment-and-mentorship",
+    label: "Our Ecosystem Pillars",
+    to: "",
+    items: [
+      {
+        id: 1,
+        label: "Investment & Mentorship",
+        to: "investment-and-mentorship",
+      },
+      {
+        id: 2,
+        label: "Data Services",
+        to: "data-services",
+      },
+      {
+        id: 3,
+        label: "Cloud & Hosting",
+        to: "cloud-and-Hosting",
+      },
+      {
+        id: 4,
+        label: "Outsourcing",
+        to: "outsourcing",
+      },
+      {
+        id: 5,
+        label: "Technology Services",
+        to: "technology-services",
+      },
+      { id: 6, label: "Office & Workspace", to: "office-and-workspace" },
+    ],
   },
-  {
-    id: 3,
-    label: "Data Services",
-    to: "data-services",
-  },
-  {
-    id: 4,
-    label: "Cloud & Hosting",
-    to: "cloud-and-Hosting",
-  },
-  {
-    id: 5,
-    label: "Outsourcing",
-    to: "outsourcing",
-  },
-  {
-    id: 6,
-    label: "Technology Services",
-    to: "technology-services",
-  },
-  { id: 7, label: "Office & Workspace", to: "office-and-workspace" },
-  { id: 8, label: "Why Choose Us", to: "why-mark-one" },
-  { id: 9, label: "Contact", to: "contact" },
+  { id: 3, label: "Why Choose Us", to: "why-mark-one" },
+  { id: 4, label: "Contact", to: "contact" },
 ];
 
 export const socialMediaLinks = [

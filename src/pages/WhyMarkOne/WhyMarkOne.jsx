@@ -1,15 +1,7 @@
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from "@/components/ui/card";
-import { Button, WhyMarkOneCards } from "@/components";
-import { CircleCheckBig } from "lucide-react";
-import Img from "@/assets/success.png";
-import { solutions, whyItMatters } from "@/constants";
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import { Button, WhyMarkOneCards } from "@/components";
+import Img from "@/assets/success.png";
 
 const WhyMarkOne = () => {
   return (
@@ -19,13 +11,13 @@ const WhyMarkOne = () => {
         {/* Left Content */}
         <div className="md:w-1/2 mb-10">
           <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-tight">
-            What Sets Mark One Apart
+            What Sets Us Apart
           </h1>
           <p className="mt-6 text-base xl:text-lg font-medium text-gray-600 max-w-xl">
-            At Mark One, we go beyond services—we become true partners in your
-            growth. From investing in your vision to powering your cloud and
-            scaling your teams, we provide the backbone for businesses ready to
-            lead the future.
+            We go beyond services, we become true partners in your growth. From
+            investing in your vision to powering your cloud and scaling your
+            teams, we provide the backbone for businesses ready to lead the
+            future.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link to="/contact">
