@@ -16,6 +16,7 @@ import {
   CloudHosting,
   Outsourcing,
   TechnologyServices,
+  OfficeWorkspace,
 } from "./pages";
 
 const router = createBrowserRouter(
@@ -31,6 +32,7 @@ const router = createBrowserRouter(
       <Route path="cloud-and-hosting" element={<CloudHosting />} />
       <Route path="outsourcing" element={<Outsourcing />} />
       <Route path="technology-services" element={<TechnologyServices />} />
+      <Route path="office-and-workspace" element={<OfficeWorkspace />} />
     </Route>
   )
 );

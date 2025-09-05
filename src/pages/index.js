@@ -5,6 +5,7 @@ import DataServices from "./DataServices/DataServices";
 import CloudHosting from "./CloudHosting/CloudHosting";
 import Outsourcing from "./Outsourcing/Outsourcing";
 import TechnologyServices from "./TechnologyServices/TechnologyServices";
+import OfficeWorkspace from "./OfficeWorkspace/OfficeWorkspace";
 
 export {
   Home,
@@ -14,4 +15,5 @@ export {
   CloudHosting,
   Outsourcing,
   TechnologyServices,
+  OfficeWorkspace,
 };

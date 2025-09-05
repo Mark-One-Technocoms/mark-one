@@ -321,3 +321,15 @@ export const techServicesoutcomes = [
   "Hardened infra for AI and data apps",
   "Lower operating costs with round-the-clock coverage",
 ];
+
+export const officeWorkspaceOfferings = [
+  "Incubation Hubs — Fully managed office spaces connected to mentors and cloud services",
+  "Remote-First Infrastructure — Build distributed teams globally with our managed setup",
+  "Enterprise Facilities — Secure, AI-ready environments with enterprise compliance",
+];
+
+export const officeWorkspaceBenefits = [
+  "Plug-and-play offices with integrated services",
+  "Access to mentors, investors, and partners",
+  "Scalable footprint from a few desks to dedicated suites",
+];
