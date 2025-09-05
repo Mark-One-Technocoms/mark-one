@@ -17,6 +17,7 @@ import {
   Outsourcing,
   TechnologyServices,
   OfficeWorkspace,
+  WhyMarkOne,
 } from "./pages";
 
 const router = createBrowserRouter(
@@ -33,6 +34,7 @@ const router = createBrowserRouter(
       <Route path="outsourcing" element={<Outsourcing />} />
       <Route path="technology-services" element={<TechnologyServices />} />
       <Route path="office-and-workspace" element={<OfficeWorkspace />} />
+      <Route path="why-mark-one" element={<WhyMarkOne />} />
     </Route>
   )
 );

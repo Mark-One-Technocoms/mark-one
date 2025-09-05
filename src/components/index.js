@@ -12,6 +12,7 @@ import WhyMarkOne from "./Home/WhyMarkOne";
 import WorkspaceSolutions from "./Home/WorkspaceSolutions";
 import Button from "./Generic/Button.jsx";
 import BgBoxEffect from "./Effects/BgBoxEffect";
+import WhyMarkOneCards from "./Generic/WhyMarkOneCards";
 
 export {
   Header,
@@ -28,4 +29,5 @@ export {
   WorkspaceSolutions,
   Button,
   BgBoxEffect,
+  WhyMarkOneCards,
 };

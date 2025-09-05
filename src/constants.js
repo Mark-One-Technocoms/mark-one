@@ -47,7 +47,8 @@ export const navItems = [
     to: "technology-services",
   },
   { id: 7, label: "Office & Workspace", to: "office-and-workspace" },
-  { id: 8, label: "Contact", to: "contact" },
+  { id: 8, label: "Why Choose Us", to: "why-mark-one" },
+  { id: 9, label: "Contact", to: "contact" },
 ];
 
 export const socialMediaLinks = [

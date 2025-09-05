@@ -6,6 +6,7 @@ import CloudHosting from "./CloudHosting/CloudHosting";
 import Outsourcing from "./Outsourcing/Outsourcing";
 import TechnologyServices from "./TechnologyServices/TechnologyServices";
 import OfficeWorkspace from "./OfficeWorkspace/OfficeWorkspace";
+import WhyMarkOne from "./WhyMarkOne/WhyMarkOne";
 
 export {
   Home,
@@ -16,4 +17,5 @@ export {
   Outsourcing,
   TechnologyServices,
   OfficeWorkspace,
+  WhyMarkOne,
 };
