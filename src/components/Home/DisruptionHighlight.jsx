@@ -7,7 +7,7 @@ import { BackgroundBeams } from "../ui/background-beams";
 const DisruptionHighlight = () => {
   const { title, sub, bullets, cta } = ironVaults;
   return (
-    <section className="flex flex-col relative py-16 lg:py-20 px-4 md:px-6 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-16 lg:py-20 px-4 md:px-6 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
       {/* <BgBoxEffect
         leftFromColor="from-yellow-700"

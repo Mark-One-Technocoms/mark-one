@@ -51,7 +51,7 @@ const WhyMarkOne = () => {
       </section>
 
       {/* CTA */}
-      <section className="flex flex-col relative py-12 sm:py-20 px-4 md:px-6 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
+      <section className="flex flex-col relative py-12 sm:py-20 px-4 md:px-6 bg-gradient-to-tr from-red-700 to-red-400 text-white justify-center items-center overflow-hidden">
         {/* Title */}
         <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-white text-center leading-snug mb-6 z-10">
           “From data to desks, from capital to cloud, we deliver it all.”
