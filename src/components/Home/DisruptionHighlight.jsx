@@ -7,7 +7,7 @@ import { BackgroundBeams } from "../ui/background-beams";
 const DisruptionHighlight = () => {
   const { title, sub, bullets, cta } = ironVaults;
   return (
-    <section className="flex flex-col relative py-20 px-4 md:px-6 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-16 lg:py-20 px-4 md:px-6 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
       {/* <BgBoxEffect
         leftFromColor="from-yellow-700"
@@ -27,8 +27,11 @@ const DisruptionHighlight = () => {
       {/* Bullet points */}
       <div className="max-w-2xl bg-accent text-sm md:text-base xl:text-lg text-gray-900 px-5 sm:px-8 py-3 sm:py-6 rounded-2xl mb-8 space-y-3 z-10">
         {bullets.map((bullet, idx) => (
-          <div key={idx} className="flex gap-3 justify-center font-medium">
-            <CircleCheckBig className="text-green-600" />
+          <div
+            key={idx}
+            className="flex gap-3 justify-center text-center font-medium"
+          >
+            <CircleCheckBig className="text-green-600 shrink-0" />
             <h1>{bullet}</h1>
           </div>
         ))}

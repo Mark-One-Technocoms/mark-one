@@ -71,7 +71,7 @@ const CloudHosting = () => {
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
                   {solutions.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
-                      <CircleCheckBig className="text-green-600" />
+                      <CircleCheckBig className="text-green-600 shrink-0" />
                       {mission}
                     </p>
                   ))}
@@ -88,7 +88,7 @@ const CloudHosting = () => {
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
                   {whyItMatters.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
-                      <CircleCheckBig className="text-green-600" />
+                      <CircleCheckBig className="text-green-600 shrink-0" />
                       {mission}
                     </p>
                   ))}

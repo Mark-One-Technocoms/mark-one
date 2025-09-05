@@ -55,7 +55,7 @@ const InvestmentMentorship = () => {
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
                   {whatWeFund.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
-                      <CircleCheckBig className="text-green-600" />
+                      <CircleCheckBig className="text-green-600 shrink-0" />
                       {mission}
                     </p>
                   ))}
@@ -72,7 +72,7 @@ const InvestmentMentorship = () => {
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
                   {howWeMentor.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
-                      <CircleCheckBig className="text-green-600" />
+                      <CircleCheckBig className="text-green-600 shrink-0" />
                       {mission}
                     </p>
                   ))}
@@ -89,7 +89,7 @@ const InvestmentMentorship = () => {
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
                   {programAdvantages.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
-                      <CircleCheckBig className="text-green-600" />
+                      <CircleCheckBig className="text-green-600 shrink-0" />
                       {mission}
                     </p>
                   ))}

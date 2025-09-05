@@ -4,7 +4,7 @@ import { BackgroundBeams } from "../ui/background-beams";
 
 const FinalCTA = () => {
   return (
-    <section className="flex flex-col relative py-20 px-4 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
+    <section className="flex flex-col relative py-16 lg:py-20 px-4 bg-[#EFBF04] text-white justify-center items-center overflow-hidden">
       {/* Background - box effect */}
       {/* <BgBoxEffect
         leftFromColor="from-red-700"

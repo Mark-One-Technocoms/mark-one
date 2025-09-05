@@ -4,7 +4,7 @@ import Img from "@/assets/about_section_image.png";
 
 const About = () => {
   return (
-    <section className="bg-gray-50 max-w-[1920px] mx-auto px-4 md:px-6 lg:px-12 xl:px-24 py-20 flex flex-col md:flex-row md:justify-between items-center md:gap-10 lg:gap-20 overflow-hidden">
+    <section className="bg-gray-50 max-w-[1920px] mx-auto px-4 md:px-6 lg:px-12 xl:px-24 py-16 lg:py-20 flex flex-col md:flex-row md:justify-between items-center md:gap-10 lg:gap-20 overflow-hidden">
       <div className="mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
         {/* Left Content */}
         <div className="md:w-4/7 my-auto">

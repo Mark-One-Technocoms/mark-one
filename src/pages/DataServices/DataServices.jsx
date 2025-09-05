@@ -58,7 +58,7 @@ const DataServices = () => {
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
                   {services.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
-                      <CircleCheckBig className="text-green-600" />
+                      <CircleCheckBig className="text-green-600 shrink-0" />
                       {mission}
                     </p>
                   ))}
@@ -75,7 +75,7 @@ const DataServices = () => {
                 <div className="space-y-3 mt-3 text-gray-700 leading-relaxed">
                   {outcomes.map((mission, idx) => (
                     <p key={idx} className="flex gap-3">
-                      <CircleCheckBig className="text-green-600" />
+                      <CircleCheckBig className="text-green-600 shrink-0" />
                       {mission}
                     </p>
                   ))}
